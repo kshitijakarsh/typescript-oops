@@ -1,6 +1,17 @@
 "use strict";
 // classes
 Object.defineProperty(exports, "__esModule", { value: true });
+// the one given below is the code in which we can define the default values for the properties of the class, but it is not recommended as it can lead to issues if we want to create multiple instances of the class with different values for the properties.
+// class Point {
+//     x: number;
+//     y: number;
+//     constructor(x = 0, y = 0){
+//         this.x = x;
+//         this.y = y;
+//     }
+// }
+// const pt = new Point();
+// console.log(pt.x, pt.y);
 class Point {
     x;
     y;
